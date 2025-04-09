@@ -358,7 +358,7 @@ Create the products list template in `views/products/index.ejs`:
     <% products.forEach(product => { %>
       <div class="product-card">
         <h3><%= product.name %></h3>
-        <p class="price">$<%= product.price.toFixed(2) %></p>
+        <p class="price">$<%= product.price %></p>
         <p class="category"><%= product.category %></p>
         <p class="description"><%= product.description %></p>
         <div class="actions">
@@ -379,7 +379,7 @@ Create the product detail template in `views/products/show.ejs`:
   <h2><%= product.name %></h2>
   
   <div class="product-info">
-    <p class="price">Price: $<%= product.price.toFixed(2) %></p>
+    <p class="price">Price: $<%= product.price %></p>
     <p class="category">Category: <%= product.category %></p>
     <p class="description"><%= product.description %></p>
   </div>
