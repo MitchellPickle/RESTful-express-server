@@ -1,25 +1,25 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "Dell Gaming Laptop",
-            "description": "A gaming laptop for your gaming needs.",
-            "price": 800.99,
-            "category": "electronics"
-        },
-        {
-            "id": 2,
-            "name": "PIZZA!?!?",
-            "description": "PIZZA IS KING",
-            "price": 7.99,
-            "category": "food"
-        },
-        {
-            "id": 3,
-            "name": "Burger",
-            "description": "Big Burger",
-            "price": 4.99,
-            "category": "food"
-        }
-    ]
+  "products": [
+    {
+      "id": 2,
+      "name": "PIZZA!?!?",
+      "description": "PIZZA IS KING",
+      "price": 7.99,
+      "category": "food"
+    },
+    {
+      "id": 3,
+      "name": "Burger",
+      "description": "Big Burger",
+      "price": 4.99,
+      "category": "food"
+    },
+    {
+      "id": 4,
+      "name": "House",
+      "price": "300000",
+      "category": "home",
+      "description": "A wonderful home"
+    }
+  ]
 }
